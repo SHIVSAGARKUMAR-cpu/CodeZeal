@@ -1,0 +1,38 @@
+h3 {
+   background: orange;
+   text-align: center;
+   margin-bottom: 20px;
+   box-shadow: 3px 3px 15px rgb(60, 59, 59);
+ }
+
+ .form-container {
+   background: #0068f1;
+   max-width: max-content;
+   margin: auto;
+   margin-top: 20px;
+   padding: 50px;
+   color: white;
+   font-size: 1rem;
+ }
+
+ table {
+   box-shadow: 3px 3px 15px rgb(60, 59, 59);
+ }
+
+ tr,
+ th,
+ td {
+   background: #4892f3;
+   border: 1px solid  #0068f1;
+ }
+
+ th,
+ td {
+   padding: 5px;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+
+ th {
+   background: orange;
+ }

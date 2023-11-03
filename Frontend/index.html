@@ -1,0 +1,1327 @@
+<!doctype html>
+<html lang="en" ng-app="CodezealApp">
+
+<head>
+
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!-- Fonts -->
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+
+
+
+
+     <!-- Bootstrap CDN -->
+
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+
+
+     <!-- Local CSS -->
+
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+     <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
+
+     <link rel="icon" type="image/x-icon" href="icons/logo.ico">
+
+     <title>IT Industrial Training with Live Projects in Ranchi - Codezeal Tech.</title>
+
+     <!-- Angular -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js"></script>
+     <script src="./Angular/Module.js"></script>
+     <script src="./Angular/Service.js"></script>
+     <script src="./Angular/Controller.js"></script>
+
+</head>
+
+<body ng-controller="dataController">
+
+     <!-- Section 1 --> <!-- Header Section-->
+
+     <section class="top-header">
+
+          <div class="top-header-wrapper">
+
+               <div class="top-header-section-1">
+
+                    <div class="top-header-info">
+
+                         <div class="top-header-info-content">
+                              <div class="top-header-info-content-logo">
+                                   <img src="icons/call.png" alt="chat">
+                              </div>
+                              <a class="top-header-info-content-details" href="tel:9031863170" >
+                                   <span>Contact sales </span>
+                                   <p>+91 9031863170</p>
+                              </a>
+                         </div>
+
+                         <div class="top-header-info-content">
+                              <div class="top-header-info-content-logo">
+                                   <img src="icons/profile.png" alt="chat">
+                              </div>
+                              <a class="top-header-info-content-details" href="mailto:info@codezealtech.com">
+                                   <span>Have a questions ?</span>
+                                   <p>info@codezealtech.com</p>
+                              </a>
+                         </div>
+
+                    </div>
+
+               </div>
+
+
+
+               <div class="top-header-section-2">
+                    <div class="top-header-aboutus">
+                         <a class="top-header-aboutus-content">
+                              <div class="top-header-aboutus-img">
+                                   <img src="icons/training.png" alt="">
+                              </div>
+                              <div class="top-header-aboutus-name">
+                                   <p>Training Gallery</p>
+                              </div>
+                         </a>
+                         <a class="top-header-aboutus-content">
+                              <div class="top-header-aboutus-img">
+                                   <img src="icons/press.png" alt="">
+                              </div>
+                              <div class="top-header-aboutus-name">
+                                   <p>Press Releases</p>
+                              </div>
+                         </a>
+                         <a class="top-header-aboutus-content">
+                              <div class="top-header-aboutus-img">
+                                   <img src="icons/blog.png" alt="">
+                              </div>
+                              <div class="top-header-aboutus-name">
+                                   <p>Blogs</p>
+                              </div>
+                         </a>
+                         <a class="top-header-aboutus-content">
+                              <div class="top-header-aboutus-img">
+                                   <img src="icons/contact.png" alt="">
+                              </div>
+                              <div class="top-header-aboutus-name">
+                                   <p>Contact Us</p>
+                              </div>
+                         </a>
+                    </div>
+               </div>
+          </div>
+
+     </section>
+
+
+
+<!-- 
+     <section class="header-section">
+          <div class="container header-1">
+               <div class="row">
+
+
+                    <div class="col-md-6">
+                         <div class="row profile-header">
+                              <div class="col-md-6">
+                                   <div class="profile">
+                                        <div class="profile-image">
+                                             <img src="icons/call.png" alt="chat">
+                                        </div>
+                                        <div class="profile-content">
+                                             <span>Contact Sale</span>
+                                             <p><b>+918946736456</b></p>
+                                        </div>
+
+                                   </div>
+
+                              </div>
+
+                              <div class="col-md-6">
+                                   <div class="profile">
+                                        <div class="profile-image">
+                                             <img src="icons/profile.png" alt="chat">
+                                        </div>
+                                        <div class="profile-content">
+                                             <span>Have a question ?</span>
+                                             <p><b>info@codexealtech.com</b></p>
+                                        </div>
+
+                                   </div>
+
+                              </div>
+                         </div>
+
+
+                    </div>
+
+
+                    <div class="col-md-6">
+
+
+                         <div class="header-menu">
+
+
+                              <div class="header-menu-items">
+                                   <div class="header-menu-icon">
+                                        <img src="icons/training.png" alt="training gallery">
+                                   </div>
+                                   <div class="header-menu-content">
+                                        <p>Training Gallery</p>
+                                   </div>
+                              </div>
+
+                              <div class="header-menu-items">
+                                   <div class="header-menu-icon">
+                                        <img src="icons/press.png" alt="training gallery">
+                                   </div>
+                                   <div class="header-menu-content">
+                                        <p>Press Releases</p>
+                                   </div>
+                              </div>
+
+                              <div class="header-menu-items">
+                                   <div class="header-menu-icon">
+                                        <img src="icons/blog.png" alt="training gallery">
+                                   </div>
+                                   <div class="header-menu-content">
+                                        <p>Blogs</p>
+                                   </div>
+                              </div>
+
+                              <div class="header-menu-items">
+                                   <div class="header-menu-icon">
+                                        <img src="icons/contact.png" alt="training gallery">
+                                   </div>
+                                   <div class="header-menu-content">
+                                        <p>Contact us</p>
+                                   </div>
+                              </div>
+
+                         </div>
+
+
+                    </div>
+
+
+
+               </div>
+
+
+          </div>
+     </section>
+
+ -->
+
+
+
+
+
+
+
+
+
+
+     <!-- Section 2 --> <!--Header 2 -->
+
+
+
+
+     <section class="head-2">
+
+          <div class="container">
+
+               <div class="row header-2">
+
+                    <div class="col-lg-4 header-2-col header-2-navbar">
+                         <div class="navbar-1">
+                              <div class="dropdown">
+                                   <botton class="dropbtn">HOME</button>
+                              </div>
+                              <div class="dropdown">
+                                   <botton class="dropbtn">COMPANY</button>
+                              </div>
+                              <div class="dropdown">
+                                   <botton class="dropbtn">SERVICE</button>
+                                        <div class="dropdown-content">
+                                             <div class="dropdown-service-content">
+                                                  <a href=""> Research & Innovation</a>
+                                             </div>
+                                        </div>
+                              </div>
+                              <div class="dropdown">
+                                   <botton class="dropbtn">TRAINING</button>
+                                        <div class="dropdown-content">
+                                             <div class="dropdown-content-training">
+                                                  <div class="dropdown-content-training-item">
+                                                       content 1
+                                                  </div>
+                                                  <div class="dropdown-content-training-item">
+                                                       content 2
+                                                  </div>
+                                                  <div class="dropdown-content-training-item">
+                                                       content 3
+                                                  </div>
+                                                  <div class="dropdown-content-training-item">
+                                                       content 4
+                                                  </div>
+                                                  <div class="dropdown-content-training-item">
+                                                       content 5
+                                                  </div>
+                                             </div>
+                                        </div>
+                              </div>
+
+                         </div>
+                    </div>
+
+                    <div class="col-lg-3  header-2-col header-2-logo">
+                         <div class="main-logo">
+                              <img src="icons/main-logo.png" alt="main logo">
+                         </div>
+                         <div class="responsive-navbar">
+                              <div id="mySidenav" class="sidenav">
+                                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                   <a href="#">HOME</a>
+                                   <a href="#">Services</a>
+                                   <a href="#">Clients</a>
+                                   <a href="#">Contact</a>
+                              </div>
+
+                              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="float-md-right col-lg-3 header-2-col header-2-social">
+                         <div class="social-media ">
+                              <a href="#"><img src="icons/linkedin.png" alt="linkedin"></a>
+                              <a href="#"><img src="icons/instagram.png" alt="instagram"></a>
+                              <a href="#"><img src="icons/facebook.png" alt="facebook"></a>
+                              <a href="#"><img src="icons/twitter.png" alt="twitter"></a>
+                              <a href="#"><img src="icons/pinterest.png" alt="pinterest"></a>
+                         </div>
+                    </div>
+
+
+               </div>
+          </div>
+
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- Section 3 --> <!-- Carousel -->
+
+
+     <section>
+
+          <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="2000">
+                         <img src="Images/img1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                         <img src="Images/img2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                         <img src="Images/img3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-interval="2000">
+                         <img src="Images/img4.jpg" class="d-block w-100" alt="...">
+                    </div>
+               </div>
+               <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval"
+                    data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-target="#carouselExampleInterval"
+                    data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+               </button>
+          </div>
+
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- Section 4 -->
+
+
+
+     <section class="content-section">
+          <div class="container">
+               <div class="row">
+
+
+                    <div class="col-md-6 ">
+                         <h2>POLISH YOUR THEORETICAL LEARNING IN AN INDUSTRIAL ENVIRONMENT</h2>
+                         <h4 class="down-shadow">ISO 9001:2015 Certified Company</h4>
+                         <p style="margin-top : 20px"> <b>Codezeal Technology</b> nourishes tech graduates by
+                              facilitating practical knowledge with
+                              real-time projects. We believe every student from IT stream should deserve an opportunity
+                              to create a futuristic path of developing technology-based solutions. We work on <b>three
+                                   key
+                                   factors</b> to let our trainee kickstart their career with industrial training
+                              programs.</p>
+                         <div class="row">
+                              <div class="col-md-6">
+                                   <p class="btn btn-success btn-block "
+                                        style="border-radius: 30px; padding: 17px; font-size: 1rem;">DISCOVER OUR
+                                        TRAINING</p>
+                              </div>
+                              <div class="col-md-6">
+                                   <div class="row">
+                                        <div class="profile lower-profile">
+                                             <div class="profile-image">
+                                                  <img src="Images/sales-img.png" alt="chat">
+                                             </div>
+                                             <div class="profile-content">
+                                                  <p><b>+918946736456</b></p>
+                                                  <span>Contact Sale</span>
+
+                                             </div>
+
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+
+
+                    <div class="col-md-6">
+                         <div class="row bold-number">
+                              <div class="col-md-12">
+                                   <div class="row">
+                                        <div class="col-sm-1">
+                                             <h1>1</h1>
+                                        </div>
+                                        <div class="col-sm-11">
+                                             <h4>Competent Professionals</h4>
+                                             <p>Our industrial training programs have been designed to meet an objective to
+                                                  produce extremely competent professionals who can combat challenges of all
+                                                  emerging technologies.</p>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-md-1">
+                                   <h1>2</h1>
+                              </div>
+                              <div class="col-md-11">
+                                   <h4 id="er">Competent Professionals</h4>
+                                   <p>Our industrial training programs have been designed to meet an objective to
+                                        produce extremely competent professionals who can combat challenges of all
+                                        emerging technologies.</p>
+                              </div>
+                              <div class="col-md-1">
+                                   <h1>3</h1>
+                              </div>
+                              <div class="col-md-11">
+                                   <h4 id="er">Latest Technologies</h4>
+                                   <p>We use the latest technologies which are in trend and in high demand. Modules of
+                                        training are set by experts of respective fields to ensure high quality of
+                                        training</p>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- Section 5 --> <!-- Owl Carousel-->
+
+     <!--Part 1-->
+
+     <section class="training-list-header">
+          <div class="vl"></div>
+          <p>Our Training Programmes List</p>
+          <div class="vl"></div>
+     </section>
+
+
+     <!-- Part 2 -->
+
+     <section class="part training-list-carousel">
+          <div class="container-fluid">
+               <div class="row">
+                    <div class="col-md-12">
+                         <div class="owl-carousel owl-theme" id="partenerrr">
+
+                              <div class="item">
+                                   <div class="training-list-card">
+                                        <h2>Industrial Training</h2>
+                                        <p>Become a certified web designer and build amazing websites with proficient
+                                             training in real-world coding.</p>
+                                        <img src="https://codezealtech.com/wp-content/uploads/2022/03/5-removebg-preview-2.png"
+                                             alt="training-logo">
+                                        <div class="training-list-card-details-link">
+                                             <a href="#">VIEW DETAILS</a>
+                                             <img src="icons/list-icons/right.png" alt="">
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="item">
+                                   <div class="training-list-card">
+                                        <h2>Industrial Training</h2>
+                                        <p>Become a certified web designer and build amazing websites with proficient
+                                             training in real-world coding.</p>
+                                        <img src="https://codezealtech.com/wp-content/uploads/2022/03/5-removebg-preview-2.png"
+                                             alt="training-logo">
+                                        <div class="training-list-card-details-link">
+                                             <a href="#">VIEW DETAILS</a>
+                                             <img src="icons/list-icons/right.png" alt="">
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="item">
+                                   <div class="training-list-card">
+                                        <h2>Industrial Training</h2>
+                                        <p>Become a certified web designer and build amazing websites with proficient
+                                             training in real-world coding.</p>
+                                        <img src="https://codezealtech.com/wp-content/uploads/2022/03/5-removebg-preview-2.png"
+                                             alt="training-logo">
+                                        <div class="training-list-card-details-link">
+                                             <a href="#">VIEW DETAILS</a>
+                                             <img src="icons/list-icons/right.png" alt="">
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="item">
+                                   <div class="training-list-card">
+                                        <h2>Industrial Training</h2>
+                                        <p>Become a certified web designer and build amazing websites with proficient
+                                             training in real-world coding.</p>
+                                        <img src="https://codezealtech.com/wp-content/uploads/2022/03/5-removebg-preview-2.png"
+                                             alt="training-logo">
+                                        <div class="training-list-card-details-link">
+                                             <a href="#">VIEW DETAILS</a>
+                                             <img src="icons/list-icons/right.png" alt="">
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="item">
+                                   <div class="training-list-card">
+                                        <h2>Industrial Training</h2>
+                                        <p>Become a certified web designer and build amazing websites with proficient
+                                             training in real-world coding.</p>
+                                        <img src="https://codezealtech.com/wp-content/uploads/2022/03/5-removebg-preview-2.png"
+                                             alt="training-logo">
+                                        <div class="training-list-card-details-link">
+                                             <a href="#">VIEW DETAILS</a>
+                                             <img src="icons/list-icons/right.png" alt="">
+                                        </div>
+                                   </div>
+                              </div>
+
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- Section 6 --> <!-- Who we are section-->
+
+
+     <section class="section-6">
+
+
+          <div class="who-we-are-section">
+
+               <p>WHO WE ARE</p>
+               <h1>
+                    <center> SERVICING PARENT ORGANIZATION FOR YEARS </center>
+               </h1>
+               <p>Codezeal Technology is a wing of Brightcode Software Services which is one of the leading software
+                    company
+                    in Ranchi with fortune of 1000+ clients. We focus on upbringing talent with diverse technology build
+                    industrial and corporate level training</p>
+          </div>
+
+
+
+          <div class="section-6-cards">
+               <div class="section-6-card">
+                    <div class="section-6-card-logo">
+                         <img src="images/Brightode-logo.png" alt="brightcode logo">
+                    </div>
+                    <div class="section-6-card-content">
+                         <p>Parent Organization</p>
+                         <h4>About Brightcode Software Services Pvt. Ltd.</h4>
+                         <p>Overview Brightcode Software Service Pvt. Ltd. is one of the fastest-growing IT companies in
+                              Ranchi</p>
+                    </div>
+
+                    <div class="section-6-card-button">
+                         <center>
+                              <p class="btn btn-success ">DISCOVER OUR TRAINING</p>
+                         </center>
+                    </div>
+
+               </div>
+
+               <div class="section-6-card">
+                    <div class="section-6-card-logo">
+                         <img src="images/Brightode-logo.png" alt="brightcode logo">
+                    </div>
+                    <div class="section-6-card-content">
+                         <p>Parent Organization</p>
+                         <h4>About Brightcode Software Services Pvt. Ltd.</h4>
+                         <p>Overview Brightcode Software Service Pvt. Ltd. is one of the fastest-growing IT companies in
+                              Ranchi</p>
+                    </div>
+
+                    <div class="section-6-card-button">
+                         <center>
+                              <p class="btn btn-success ">DISCOVER OUR TRAINING</p>
+                         </center>
+                    </div>
+
+               </div>
+
+          </div>
+
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- Section 7 -->
+
+     <section class="section-7">
+
+          <!-- Part 1 -->
+
+          <div class="section-7-content">
+               <div class="section-7-centent-1">
+                    <span> WHY CHOOSE US</span>
+                    <p> 6 REASONS TO CHOOSE CODEZEAL FOR INDUSTRIAL TRAINING PROGRAMS</p>
+               </div>
+               <div class="section-7-content-2">
+                    <span>Demo</span>
+                    <p>
+                         Here are 6 reasons why you should choose us to build your skills in developing customized
+                         applications and add a protifable journey in your career path.
+                    </p>
+               </div>
+          </div>
+
+
+
+          <!-- Part 2 -->
+
+          <div class="section-7-cards">
+
+               <div class="section-7-card">
+                    <div class="section-7-card-logo">
+                         <img src="icons/call.png" alt="">
+                    </div>
+                    <div class="section-7-card-content">
+                         <p>Exposure to the Professional World</p>
+                         <span>We let our trainees experience the work of professional world through corporate level
+                              training, career talks, and disciplined environment.</span>
+                    </div>
+               </div>
+
+               <div class="section-7-card">
+                    <div class="section-7-card-logo">
+                         <img src="icons/call.png" alt="">
+                    </div>
+                    <div class="section-7-card-content">
+                         <p>Exposure to the Professional World</p>
+                         <span>We let our trainees experience the work of professional world through corporate level
+                              training, career talks, and disciplined environment.</span>
+                    </div>
+               </div>
+
+               <div class="section-7-card">
+                    <div class="section-7-card-logo">
+                         <img src="icons/call.png" alt="">
+                    </div>
+                    <div class="section-7-card-content">
+                         <p>Exposure to the Professional World</p>
+                         <span>We let our trainees experience the work of professional world through corporate level
+                              training, career talks, and disciplined environment.</span>
+                    </div>
+               </div>
+
+               <div class="section-7-card">
+                    <div class="section-7-card-logo">
+                         <img src="icons/call.png" alt="">
+                    </div>
+                    <div class="section-7-card-content">
+                         <p>Exposure to the Professional World</p>
+                         <span>We let our trainees experience the work of professional world through corporate level
+                              training, career talks, and disciplined environment.</span>
+                    </div>
+               </div>
+
+               <div class="section-7-card">
+                    <div class="section-7-card-logo">
+                         <img src="icons/call.png" alt="">
+                    </div>
+                    <div class="section-7-card-content">
+                         <p>Exposure to the Professional World</p>
+                         <span>We let our trainees experience the work of professional world through corporate level
+                              training, career talks, and disciplined environment.</span>
+                    </div>
+               </div>
+
+               <div class="section-7-card">
+                    <div class="section-7-card-logo">
+                         <img src="icons/call.png" alt="">
+                    </div>
+                    <div class="section-7-card-content">
+                         <p>Exposure to the Professional World</p>
+                         <span>We let our trainees experience the work of professional world through corporate level
+                              training, career talks, and disciplined environment.</span>
+                    </div>
+               </div>
+
+
+          </div>
+
+          <div class="section-7-footer-content">
+               <span>Career with us Today!</span> <span><a href=""> Explore our services</a></span>
+          </div>
+
+
+
+
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- Section 8 -->
+
+     <section class="section-8">
+
+          <div class="detail-form">
+
+               <div class=" student-detail-form">
+
+                    <div class=" form-left-side">
+
+                         <div class="form-left-side-header">
+                              <span>APPLY ANYTIME</span>
+                              <h3>START YOUR JOURNEY HERE</h3>
+                              <p>Please contact our team or complete the form below. A representative will contact you
+                                   shortly.</p>
+                         </div>
+
+                         <div class="form-left-side-details">
+                              <div class="details-icon">
+                                   <img src="icons/form-icons/settings.png" alt="">
+                              </div>
+                              <div class="detail-content">
+                                   <h5>Let’s Talk</h5>
+                                   <p>Discuss us your query regarding the training and we will guide you throughout</p>
+                              </div>
+                         </div>
+
+                         <div class="form-left-side-details">
+                              <div class="details-icon">
+                                   <img src="icons/form-icons/chat.png" alt="">
+                              </div>
+                              <div class="detail-content">
+                                   <h5>Apply For Training</h5>
+                                   <p>If you’re right fit, we will conduct a training program for you on specific time
+                                        and
+                                        date.</p>
+                              </div>
+                         </div>
+
+                         <div class="form-left-side-details">
+                              <div class="details-icon">
+                                   <img src="icons/form-icons/target.png" alt="">
+                              </div>
+                              <div class="detail-content">
+                                   <h5>Start Your IT Experience</h5>
+                                   <p>Within days, you will be working on real projects and start earning experience.
+                                   </p>
+                              </div>
+                         </div>
+
+                    </div>
+
+
+
+
+                    <div class="form-right-side">
+                         <form class="form-container">
+                              <h5>Your Name <span>*</span></h5>
+                              <div class="row form-name-column">
+                                   <div class="col ">
+                                        <input type="text" class="form-control" placeholder="First Name" ng-model="FirstName">
+                                   </div>
+                                   <div class="col">
+                                        <input type="text" class="form-control" placeholder="Last Name" ng-model="LastName">
+                                   </div>
+                              </div>
+
+                              <div class="form-input-row">
+
+                                   <h5>Your Email <span>*</span></h5>
+                                   <div class="row">
+                                        <div class="col">
+                                             <input type="text" class="form-control" placeholder="Email" ng-model="EmailId">
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="form-input-row">
+
+                                   <h5>Phone <span>*</span></h5>
+                                   <div class="row">
+                                        <div class="col">
+                                             <input id="phone" type="tel" class="form-control" placeholder="Phone No"
+                                                  name="phone" size="100%" ng-model="MobileNo">
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="form-input-row">
+
+                                   <h5>College Name <span>*</span></h5>
+                                   <div class="row">
+                                        <div class="col">
+                                             <input id="phone" type="tel" class="form-control"
+                                                  placeholder="College Name" ng-model="CollegeName">
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="form-input-row">
+                                   <h5>Graduate Degree Holder in <span>*</span></h5>
+                                   <div class="row">
+                                        <div class="col">
+                                             <div class="input-group mb-3">
+                                                  <select class="custom-select" id="inputGroupSelect01" ng-model="Degree">
+                                                       <option selected>Graduate Degree Holder in</option>
+                                                       <option value="B.tech in CS/IT">B.tech in CS/IT</option>
+                                                       <option value="MCA">MCA</option>
+                                                       <option value="BCA">BCA</option>
+                                                       <option value="Bsc/IT">BSc/IT</option>
+                                                       <option value="Diploma">Diploma</option>
+                                                  </select>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="form-input-row">
+                                   <h5>Select Your Course <span>*</span></h5>
+                                   <div class="row">
+                                        <div class="col">
+                                             <div class="input-group mb-3">
+                                                  <select class="custom-select" id="inputGroupSelect01" ng-model="Course">
+                                                       <option selected>Select Your Course</option>
+                                                       <option value="PHP Development">PHP Development</option>
+                                                       <option value=".NET Development">.Net Development</option>
+                                                       <option value="Android Development">Android Development</option>
+                                                       <option value="Java">Java</option>
+                                                       <option value="Web Development">Web Designing</option>
+                                                       <option value="Python">Python</option>
+                                                       <option value="Digital Marketing">Digital Marketing</option>
+                                                  </select>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <div class="form-input-row">
+                                   <button type="button" class="btn btn-outline-dark" ng-click="SaveDetails()">Submit</button>
+                              </div>
+
+                         </form>
+                    </div>
+
+               </div>
+
+
+
+
+
+
+
+               <div class="section-8-footer">
+
+
+                    <div class="section-8-footer-card-wrapper">
+
+                         <div class="section-8-footer-card">
+                              <div class="section-8-footer-logo">
+                                   <img src="Images/std1.jpg" alt="">
+
+                                   <div class="section-8-footer-logo-content">
+                                        <p> <b> Rajesh Bharti </b></p>
+                                        <span>Android Developer -</span>
+                                        <span>Brightcode</span>
+                                   </div>
+
+                              </div>
+
+                              <div class="section-8-footer-content">
+                                   <p>Getting trained from Codezeal provided me the opportunity to place myself in one
+                                        of the
+                                        best
+                                        software company in Ranchi. Codezeal trainers are really experts, they cleared
+                                        my
+                                        doubts
+                                        and provided me the ladder to work in Brightcode.</p>
+                              </div>
+                         </div>
+
+                    </div>
+
+
+                    <div class="section-8-footer-card-wrapper">
+
+                         <div class="section-8-footer-card">
+                              <div class="section-8-footer-logo">
+                                   <img src="Images/std2.jpg" alt="">
+
+                                   <div class="section-8-footer-logo-content">
+                                        <p> <b> Shivam </b></p>
+                                        <span>PHP Developer</span>
+                                        <span>Brightcode</span>
+                                   </div>
+
+                              </div>
+
+                              <div class="section-8-footer-content">
+                                   <p>After joining Codezeal’s live training program, got so much clarity for choosing
+                                        my career path, managing my time, and the live classes were very helpful for
+                                        upgrading my PHP skills.</p>
+                              </div>
+                         </div>
+
+                    </div>
+
+
+
+
+
+               </div>
+
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- Section 9 -->
+
+     <section class="section-9">
+          <div class="section-9-content">
+               <span>FROM OUR GALLERY</span>
+               <h2>WATCH HOW TRAINING ENVIRONMENT WORKS</h2>
+               <p>Explore our Training Gallery for valuable insights and thought decision on industry best practices in
+                    industrial and corporate trainings.</p>
+          </div>
+
+
+
+          <div class="section-9-gallery">
+
+               <div class="section-9-gallery-image">
+                    <img id="myImg" onclick="galleryModal('Images/Gallery/img1.jpg', 'img1')"
+                         src="Images/Gallery/img1.jpg" alt="img1">
+
+                    <img id="myImg" onclick="galleryModal('Images/Gallery/img2.jpg', 'img2')"
+                         src="Images/Gallery/img2.jpg" alt="img2">
+
+                    <img id="myImg" onclick="galleryModal('Images/Gallery/img3.jpg', 'img3')"
+                         src="Images/Gallery/img3.jpg" alt="img2">
+
+
+
+
+               </div>
+
+               <!-- Gallery Modal  -->
+               <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+               </div>
+          </div>
+
+          <div class="section-9-button">
+               <button>Show All</button>
+          </div>
+
+          <div class="section-9-line">
+               <p></p>
+          </div>
+     </section>
+
+
+
+     <!-- Section 10  -->
+
+
+
+
+
+
+     <section class="section-10">
+          <div class="section-10-content">
+               <span>HEAR FROM OUR STUDENTS</span>
+               <h2>Students Talk about their Experience in Codezeal Technology</h2>
+          </div>
+
+
+          <div class="section-10-gallery">
+
+               <div class="section-10-gallery-card sec-10-card">
+
+                    <div class="section-10-gallery-content">
+
+                         <p><i> “Being a BCA student its was very important for me to work on real time projects. and
+                                   that was possible just because of Codezeal Technology who helped me to work on real
+                                   time projects.” </i> </p>
+                         <h3>Priyanka Kumari</h3>
+                         <p>1 Month Java Training</p>
+                         <p>Usha Martin University</p>
+
+                    </div>
+
+               </div>
+
+               <div class="section-10-gallery-card">
+
+                    <div class="section-10-gallery-review">
+                         <iframe width="560" height="480" src="https://www.youtube.com/embed/no4EOqw7UI4"
+                              title="YouTube video player" frameborder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                              allowfullscreen></iframe>
+                    </div>
+               </div>
+
+          </div>
+
+
+          <div class="section-10-line">
+               <p></p>
+          </div>
+
+
+     </section>
+
+
+     <!-- Section 11 -->
+
+     <section class="section-11">
+
+
+
+          <div class="section-11-button">
+               <button onClick="myFunction()">Click here to find us on the Map</button>
+
+          </div>
+
+          <div id="section-11-map-id">
+               <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.9024328268715!2d85.35872251477605!3d23.355549084785515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e37540db78a7%3A0xb44f47201789f795!2sCodezeal%20Technology%20Private%20Limited!5e0!3m2!1sen!2sin!4v1679998624840!5m2!1sen!2sin"
+                    width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+
+
+
+     </section>
+
+
+
+
+     <!-- section 12 -->
+
+     <section class="section-12">
+
+          <div class="section-12-footer">
+               <div class="section-12-content">
+                    <h6>Training</h6>
+                    <p>PHP Training</p>
+                    <p>.NET Training</p>
+                    <p>JAVA Training</p>
+                    <p>Website Design Training</p>
+               </div>
+
+               <div class="section-12-content">
+                    <h6>Company</h6>
+                    <p>About Us</p>
+                    <p>FAQ</p>
+                    <p>Careers</p>
+               </div>
+
+               <div class="section-12-content">
+                    <h6>Support</h6>
+                    <p>FAQ</p>
+                    <p>Training Blog</p>
+                    <p>Contact Us</p>
+                    <p>Privacy Policy</p>
+               </div>
+
+               <div class="section-12-content">
+                    <h6>Follow US</h6>
+                    <p>Facebook</p>
+                    <p>Twitter</p>
+                    <p>LinkedIn</p>
+                    <p>Instagram</p>
+               </div>
+
+          </div>
+
+
+          <div class="section-12-footer-2">
+               <p>Address: 2nd Floor, Mimec Tech Park, Namkum Industrial Area, Lowadih, Ranchi, Jharkhand 834010</p>
+               <span>Phone:+91 9031863170</span>
+               <span>Mail: info@codezealtech.com</span>
+          </div>
+
+          <div class="section-12-footer-3">
+
+               <p> Copyright 2022 Codezeal Technology. Designed and Developed by Brightcode </p>
+
+          </div>
+
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- JQuery -->
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+          crossorigin="anonymous"></script>
+
+
+     <!--Telephone input script-->
+     <script>
+          const phoneInputField = document.querySelector("#phone");
+          const phoneInput = window.intlTelInput(phoneInputField, {
+               utilsScript:
+                    "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+          });
+     </script>
+
+
+
+
+     <!-- Owl Carousel Script -->
+
+     <script src="https://code.jquery.com/jquery-3.4.1.js"
+          integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+
+     <script src="owlcarousel/owl.carousel.min.js"></script>
+
+     <script>
+          $(document).ready(function () {
+               var owl = $('#partenerrr');
+               owl.owlCarousel({
+                    loop: true,
+                    nav: false,
+                    margin: 30,
+                    autoplay: true,
+                    autoplayTimeout: 2000,
+                    responsive: {
+
+                         0: {
+
+                              items: 1
+                         },
+                         608: {
+
+                              items: 2
+                         },
+                         930: {
+
+                              items: 3
+                         },
+                    }
+                         
+               });
+          });
+     </script>
+
+
+
+     <!-- Section 9 Gallery -->
+
+     <script>
+          // Get the modal
+          var modal = document.getElementById("myModal");
+
+          // Get the image and insert it inside the modal - use its "alt" text as a caption
+          // var img = document.getElementById("myImg2");
+
+          var modalImg = document.getElementById("img01");
+
+          var captionText = document.getElementById("caption");
+          function galleryModal(source, caption) {
+               modal.style.display = "block";
+               modalImg.src = source;
+               captionText.innerHTML = caption;
+          }
+
+          // Get the <span> element that closes the modal
+          var span = document.getElementsByClassName("close")[0];
+
+          // When the user clicks on <span> (x), close the modal
+          span.onclick = function () {
+               modal.style.display = "none";
+          }
+     </script>
+
+
+
+     <!-- Section 11 Map Hide Show Script -->
+
+     <script>
+          function myFunction() {
+               var x = document.getElementById("section-11-map-id");
+               if (x.style.display === "none") {
+                    x.style.display = "block";
+               } else {
+                    x.style.display = "none";
+               }
+          }
+     </script>
+
+
+     <!-- Section -2 Side navbar -->
+     <script>
+          function openNav() {
+               document.getElementById("mySidenav").style.width = "250px";
+          }
+
+          function closeNav() {
+               document.getElementById("mySidenav").style.width = "0";
+          }
+     </script>
+
+</body>
+
+</html>

@@ -1,0 +1,1507 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Rubik', sans-serif;
+}
+
+
+/* ********** Section 1 ********** */
+
+.top-header {
+   background-color: #5666b5;
+   padding: 20px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+
+.top-header-wrapper {
+   width: 80%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.top-header-info {
+   display: flex;
+}
+
+.top-header-info-content {
+   color: white;
+   margin-right: 30px;
+   display: flex;
+}
+
+.top-header-info-content-logo img {
+   width: 48px;
+   margin-right: 10px;
+}
+
+.top-header-info-content-details
+{
+   color: white
+}
+
+.top-header-info-content-details span {
+
+   font-size: 13px;
+}
+
+.top-header-info-content-details p {
+   margin: 0;
+   margin-top: -5px;
+   font-size: 1.125rem;
+   min-width: max-content;
+}
+
+.top-header-info-content-details:hover {
+   color: green;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.top-header-aboutus {
+   display: flex;
+   justify-content: end;
+}
+
+
+
+.top-header-aboutus-img img {
+   width: 32px;
+}
+
+.top-header-aboutus-name p {
+   margin: 0;
+   min-width: max-content;
+   font-size: 0.8rem;
+}
+
+.top-header-aboutus-content {
+   color: white;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding-left: 20px;
+}
+
+.top-header-aboutus-content:hover
+{
+   color: rgb(108, 244, 80);
+   cursor: pointer;
+   text-decoration: none;
+}
+
+
+/* Part 1 */
+
+
+.header-section {
+   margin-top: 10px;
+   background-color: #5666b5;
+}
+
+.header-1 {
+   padding-top: 20px;
+   color: white;
+}
+
+
+.profile {
+   display: flex;
+
+}
+
+.profile-image img {
+   width: 50px;
+}
+
+.profile-content {
+   margin: 0;
+   padding: 0;
+   margin-left: 7px;
+
+}
+
+.profile-content:hover {
+   color: green;
+
+}
+
+.profile-content p {
+   margin: 0;
+   padding: 0;
+   font-size: 1.1rem;
+}
+
+
+/* Part 2 */
+
+.header-menu {
+   display: flex;
+   justify-content: right;
+
+}
+
+.header-menu-items {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+
+
+.header-menu-icon img {
+   width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ********** Section 2 ********** */
+
+
+
+.head-2 {
+
+   z-index: 10;
+   background-color: white;
+   position: sticky;
+   top: 0;
+   margin-top: -5px;
+
+}
+
+
+
+
+
+.header-2-col {
+   padding-left: 0;
+   padding-right: 0;
+   display: flex;
+}
+
+.responsive-navbar {
+   display: none;
+}
+
+
+.navbar-1 {
+   height: 100%;
+   display: flex;
+}
+
+
+.navbar-1 .dropdown {
+   color: #5666b5;
+   padding-top: 20px;
+   margin-top: 15px;
+   margin-right: 25px;
+   border-top: 2px solid rgb(253, 253, 253);
+   font-size: 16px;
+
+}
+
+
+/* Dropdown */
+
+.dropbtn {
+   color: #0e2b5c;
+}
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f1f1f1;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+   z-index: 20;
+}
+
+.dropdown-content a {
+   color: black;
+   padding: 12px 16px;
+   text-decoration: none;
+   display: block;
+
+}
+
+.dropdown-service-content {
+   border-radius: 10px;
+   min-width: max-content;
+   padding: 10px;
+}
+
+.dropdown-service-content:hover {
+   background: rgb(169, 169, 252);
+
+}
+
+.dropdown-content-training
+{
+   display: flex;
+   position: absolute;
+   left: 50%;
+   top: 100%;
+   
+
+
+}
+
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+
+
+
+
+
+.main-logo {
+   display: inline-flex;
+   justify-content: center;
+}
+
+
+.main-logo img {
+   padding: 5px;
+   margin-top: 15px;
+   width: 80%;
+
+}
+
+.navbar-1 .dropdown:hover {
+   cursor: pointer;
+   text-decoration: none;
+   border-top: 2px solid rgb(211, 10, 10);
+
+}
+
+
+
+.social-media img {
+
+   margin: 10px;
+   width: 6%;
+}
+
+
+
+
+/* ********** Section 3 ********** */
+
+
+
+
+
+/* ********** Section 4 ********** */
+
+
+
+.content-section {
+   margin-top: 100px;
+   margin-bottom: 50px;
+}
+
+.down-shadow {
+   padding-bottom: 12px;
+   box-shadow: 0 8px 6px -6px #222;
+}
+
+.lower-profile {
+   display: flex;
+   justify-content: flex-start;
+   width: 100%;
+   height: 100%;
+   border-radius: 30px;
+}
+
+.profile-content {
+   padding-left: 5px;
+}
+
+.bold-number h1 {
+   font-weight: 800;
+}
+
+
+
+
+
+
+
+/* ********** Section 5 ********** */
+
+/* Part 1 */
+
+.vl {
+   border-top: 2px solid green;
+   width: 100%;
+}
+
+.training-list-header {
+   margin-top: 20px;
+   margin-bottom: 50px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.training-list-header p {
+   text-align: center;
+   min-width: max-content;
+   margin-top: 10px;
+   margin-left: 10px;
+   margin-right:10px;
+   
+}
+
+/* Part 2 */
+
+.training-list-carousel {
+   width: 80%;
+   margin: auto;
+}
+
+.training-list-card {
+   box-sizing: border-box;
+   background-color: blue;
+   border-radius: 10px;
+   color: white;
+   text-align: center;
+   padding: 20px;
+}
+
+.training-list-card img {
+   max-width: 5rem;
+   display: flex;
+   margin: auto;
+}
+
+.training-list-card-details-link {
+   margin-top: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.training-list-card-details-link a {
+   color: white;
+}
+
+.training-list-card-details-link :hover {
+   background-color: red;
+}
+
+.training-list-card-details-link img {
+   max-width: 20px;
+   max-height: 20px;
+   margin: 0;
+
+}
+
+
+
+/* ********** Section 6 ********** */
+
+/* Part 1 */
+
+
+.who-we-are-section {
+   width: 45%;
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+
+
+
+.section-6-cards {
+   box-sizing: border-box;
+   width: 80%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+}
+
+.section-6-card {
+   box-sizing: border-box;
+   padding: 25px;
+   display: inline-flex;
+   flex-direction: column;
+   border-radius: 10px;
+   box-shadow: 5px 5px 15px grey;
+   ;
+
+}
+
+.section-6-card-logo img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
+
+}
+
+.section-6-card-content {
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 30px;
+
+}
+
+.section-6-card-content h4 {
+   font-size: 1.25rem;
+}
+
+.section-6-card-content p {
+   font-size: 1rem;
+}
+
+
+.section-6-card-button p {
+   border-radius: 20px;
+   width: 70%;
+   padding: 7px;
+
+}
+
+
+
+/* ********** Section 7 ********** */
+
+/* Part 1 */
+
+.section-7 {
+   width: 80%;
+   margin: auto;
+   margin-top: 100px;
+
+}
+
+.section-7-content {
+
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   column-gap: 50px;
+   grid-auto-flow: column;
+
+}
+
+.section-7-centent-1 p {
+   font-size: 31px;
+   font-weight: 600;
+}
+
+.section-7-content-2 {
+   text-align: justify;
+   font-size: 18px;
+}
+
+.section-7-content-2 span {
+   color: white;
+}
+
+
+/* Part 2 */
+
+.section-7-cards {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 40px;
+   row-gap: 50px;
+
+}
+
+
+.section-7-card {
+   display: flex;
+   justify-content: flex-start;
+
+}
+
+.section-7-card-logo img {
+   margin: 20px;
+   margin-left: 0px;
+   width: 50px;
+}
+
+.section-7-card-content {
+   margin: 10px;
+}
+
+.section-7-card-content p {
+
+   font-size: 1.25rem;
+   font-weight: 600;
+}
+
+
+.section-7-footer-content {
+   display: block;
+   margin-top: 50px;
+   text-align: center;
+}
+
+
+.section-7-footer-content a {
+   text-decoration: none;
+   color: green;
+}
+
+.section-7-footer-content a:hover {
+   color: blue;
+}
+
+
+
+
+
+
+
+
+/* ********** Section 8 ********** */
+
+.section-8 {
+   margin-top: 200px;
+}
+
+.detail-form {
+   /* margin-top: 200px; */
+   background-color: red;
+   background-image: url("images/bgimg.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   position: relative;
+   top: 100px;
+   margin-bottom: 100px;
+
+}
+
+
+.student-detail-form {
+   width: 80%;
+   margin: auto;
+   display: flex;
+   position: relative;
+   top: -200px;
+   box-shadow: 0px 0px 3px 0px #000000;
+   overflow: hidden;
+}
+
+
+
+.form-left-side {
+   width: 50%;
+   padding: 30px;
+   color: white;
+   background-color: blue;
+
+}
+
+
+.form-left-side-header {
+   text-align: center;
+}
+
+.form-left-side-details {
+   display: flex;
+   margin-top: 50px;
+}
+
+.detail-content {
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.details-icon img {
+   width: 50px;
+}
+
+.form-container {
+   margin: 50px;
+   width: 70%;
+}
+
+.form-input-row {
+   margin-top: 20px;
+}
+
+.form-right-side {
+   background-color: white;
+
+}
+
+
+
+
+.section-8-footer {
+
+   position: relative;
+   top: -130px;
+   width: 80%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+
+.section-8-footer-card-wrapper {
+
+   box-sizing: border-box;
+   background-color: rgba(0, 0, 0, 0.4);
+   margin: 10px;
+   padding: 10px;
+   box-shadow: 3px 3px 5px 0px #000000;
+   border-radius: 10px;
+}
+
+.section-8-footer-card {
+   box-sizing: border-box;
+   padding-left: 15px;
+   padding-right: 15px;
+   display: flex;
+}
+
+.section-8-footer-logo {
+   color: rgb(15, 117, 251);
+   width: 30%;
+   display: flex;
+   flex-direction: column;
+
+}
+
+
+.section-8-footer-logo img {
+   width: 100px;
+   height: 100px;
+   border: 2px solid blue;
+   border-radius: 50%;
+}
+
+.section-8-footer-logo-content p {
+   margin-top: 10px;
+   margin-bottom: 0;
+}
+
+.section-8-footer-content {
+   width: 70%;
+   padding: 5px;
+   border-radius: 10px;
+   color: rgb(255, 255, 255);
+   background: rgba(0, 0, 0, 0.05);
+}
+
+.section-8-footer-content p {
+   font-size: 1.25rem;
+   text-align: justify;
+}
+
+
+
+
+
+
+/* ********** Section 9 ********** */
+
+
+.section-9 {
+   margin-top: 200px;
+}
+
+.section-9-content {
+
+   width: 50%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.section-9-content span {
+   color: green;
+   font-size: 0.7rem;
+   letter-spacing: 5px;
+   text-align: center;
+   font-weight: 500;
+   margin-bottom: 7px;
+}
+
+.section-9-content h2 {
+   width: 50%;
+   margin-bottom: 20px;
+   font-weight: 600;
+   color: rgb(6, 6, 101);
+}
+
+.section-9-content p {
+   text-align: center;
+   color: rgb(128, 128, 255);
+   font-weight: 400;
+}
+
+
+.section-9-gallery {
+   width: 80%;
+   margin: auto;
+}
+
+.section-9-gallery-image {
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+}
+
+.section-9-gallery-image img {
+   width: 100%;
+}
+
+
+/* Section 9 Gallery Modal */
+
+
+#myImg {
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+#myImg:hover {
+   opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+   display: none;
+   /* Hidden by default */
+   position: fixed;
+   /* Stay in place */
+   z-index: 10;
+   /* Sit on top */
+   padding-top: 100px;
+   /* Location of the box */
+   left: 0;
+   top: 0;
+   width: 100%;
+   /* Full width */
+   height: 100%;
+   /* Full height */
+   overflow: auto;
+   /* Enable scroll if needed */
+   background-color: rgb(0, 0, 0);
+   /* Fallback color */
+   background-color: rgba(0, 0, 0, 0.9);
+   /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+   margin: auto;
+   display: block;
+   width: 80%;
+   max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+   margin: auto;
+   display: block;
+   width: 80%;
+   max-width: 700px;
+   text-align: center;
+   color: #ccc;
+   padding: 10px 0;
+   height: 150px;
+}
+
+/* Add Animation */
+.modal-content,
+#caption {
+   -webkit-animation-name: zoom;
+   -webkit-animation-duration: 0.6s;
+   animation-name: zoom;
+   animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+   from {
+      -webkit-transform: scale(0)
+   }
+
+   to {
+      -webkit-transform: scale(1)
+   }
+}
+
+@keyframes zoom {
+   from {
+      transform: scale(0)
+   }
+
+   to {
+      transform: scale(1)
+   }
+}
+
+/* The Close Button */
+.close {
+   position: absolute;
+   top: 15px;
+   right: 35px;
+   color: #f1f1f1;
+   font-size: 40px;
+   font-weight: bold;
+   transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+   color: #bbb;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+
+.section-9-button {
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+.section-9-button button {
+   border-radius: 20px;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   background: green;
+   color: white;
+   border: none;
+
+
+}
+
+.section-9-button button:hover,
+.section-9-button button:focus {
+   background: rgb(1, 81, 1);
+
+}
+
+.section-9-line p {
+   width: 80%;
+   margin: auto;
+   margin-top: 50px;
+   display: flex;
+   border-bottom: 1px solid blue;
+}
+
+
+
+
+
+/* ********** Section 10 ********** */
+
+.section-10 {
+   width: 80%;
+   margin: auto;
+   margin-top: 100px;
+}
+
+.section-10-content {
+   width: 60%;
+   margin: auto;
+   text-align: center;
+}
+
+.section-10-content span {
+   font-size: 0.7rem;
+   font-weight: 400;
+   letter-spacing: 3px;
+   color: green;
+
+}
+
+.section-10-content h2 {
+   color: darkblue;
+}
+
+
+.section-10-gallery {
+   margin-top: 50px;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: auto;
+   column-gap: 20px;
+
+}
+
+.section-10-gallery-card {
+   border-radius: 10px;
+   box-shadow: 3px 3px 20px 3px black;
+   overflow: hidden;
+
+}
+
+.sec-10-card {
+   border-left: 10px solid rgb(88, 88, 88);
+}
+
+.section-10-gallery-content {
+   padding: 30px;
+   padding-bottom: 10px;
+
+}
+
+.section-10-gallery-content p {
+   font-size: 1.2rem;
+   color: rgb(136, 136, 181);
+}
+
+
+.section-10-gallery-content h3 {
+   color: rgb(77, 77, 240);
+}
+
+
+.section-10-gallery-review {
+   background: #000;
+}
+
+.section-10-gallery-review iframe {
+
+   width: 100%;
+   height: 300px;
+}
+
+.section-10-line p {
+   width: 100%;
+   margin: auto;
+   margin-top: 60px;
+   display: flex;
+   border-bottom: 1px solid blue;
+}
+
+
+
+
+/* ********** Section 11 ********** */
+
+.section-11 {
+   width: 80%;
+   margin: auto;
+   margin-top: 100px;
+
+}
+
+
+.section-11-button {
+   display: flex;
+   justify-content: center;
+}
+
+.section-11-button button {
+   font-size: 1.25rem;
+   font-weight: 500;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   border: none;
+   border-radius: 30px;
+   background: #dddbdb;
+}
+
+#section-11-map-id {
+   display: none;
+   margin-top: 50px;
+}
+
+
+/* ********** Section 12 ********** */
+
+.section-12 {
+   margin-top: 50px;
+   background: rgb(91, 91, 241);
+   padding-top: 50px;
+}
+
+.section-12-footer {
+   width: 90%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+}
+
+.section-12-footer h6 {
+   color: white;
+}
+
+.section-12-footer p {
+   color: rgb(234, 234, 234);
+}
+
+.section-12-footer-2 {
+   font-size: 0.9rem;
+   width: 90%;
+   margin: auto;
+   margin-top: 50px;
+   color: rgb(239, 237, 237);
+}
+
+.section-12-footer-2 p {
+   margin: 0;
+
+}
+
+
+.section-12-footer-3 {
+   border-top: 1px solid rgb(140, 140, 250);
+   width: 100%;
+   margin: auto;
+   margin-top: 30px;
+
+}
+
+.section-12-footer-3 p {
+   font-size: 0.8rem;
+   color: white;
+   text-align: center;
+   margin: 0;
+   padding-top: 30px;
+   padding-bottom: 30px;
+
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+   /* ********** Section 1 ********** */
+
+   .top-header-info-content-details p {
+      font-size: 1rem;
+
+   }
+
+   /* ********** Sectin 5 ********** */
+
+   .training-list-header p
+   {
+      display: inline;
+      font-size: 1rem;
+   }
+
+   /* ********** Section 9 ********** */
+
+   .section-9-content {
+      width: 80%;
+   }
+
+
+   .section-9-content h2 {
+      width: 60%;
+      margin: auto;
+      margin-bottom: 20px;
+      font-weight: 600;
+      color: rgb(6, 6, 101);
+      text-align: center;
+   }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+   /* ********** Section 1 ********** */
+
+   .top-header-wrapper {
+      grid-template-columns: repeat(1, 1fr);
+   }
+
+   .top-header-section-2 {
+      display: none;
+   }
+
+   .top-header-info {
+      justify-content: center;
+   }
+
+   .top-header-info-content {
+      margin-right: 15px;
+   }
+
+
+   /* ********** Section 2 ********** */
+
+   .header-2-navbar {
+      display: none;
+   }
+
+   .header-2-social {
+      display: none;
+   }
+
+
+   .header-2-logo {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .responsive-navbar {
+      position: absolute;
+      right: 10px;
+      display: block;
+      place-self: center;
+   }
+
+
+   /* Side Navbar */
+
+   .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+   }
+
+   .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+   }
+
+   .sidenav a:hover {
+      color: #f1f1f1;
+   }
+
+   .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+   }
+
+
+
+
+   .profile-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .header-menu {
+      display: none;
+   }
+
+
+
+
+   .student-detail-form {
+      width: 90%;
+      flex-direction: column;
+
+   }
+
+   .form-left-side {
+      width: 100%;
+   }
+
+   .form-right-side- {
+
+      width: 100%;
+   }
+
+   .form-name-column {
+      flex-direction: column;
+   }
+
+
+
+   /* ********** Section 6 ********** */
+
+   .who-we-are-section {
+      width: 90%;
+
+   }
+
+   .section-6-cards {
+
+      width: 90%;
+
+   }
+
+   /* ********* Section 7 ********** */
+
+   .section-7-content {
+
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      column-gap: 0PX;
+
+   }
+
+
+   .section-7-cards {
+
+
+      grid-template-columns: repeat(2, 1fr);
+
+   }
+
+
+   /* ********** Section 8 ********** */
+
+   .section-8-footer {
+      grid-template-columns: repeat(1, 1fr);
+
+
+   }
+
+   .section-8-footer-card {
+      flex-direction: column;
+   }
+
+
+
+   .section-8-footer-logo {
+      width: 100%;
+      flex-direction: row;
+      align-items: center;
+   }
+
+   .section-8-footer-logo img {
+      height: 70px;
+      width: 70px;
+   }
+
+   .section-8-footer-logo p {
+      font-size: 1.25rem;
+   }
+
+   .section-8-footer-logo-content {
+      margin-left: 10px;
+   }
+
+
+   .section-8-footer-content {
+      width: 100%;
+      margin-top: 10px;
+   }
+
+
+   /* ********** Section 9 ********** */
+
+   .section-9-gallery-image {
+      grid-template-columns: repeat(1, 1fr);
+   }
+
+   /* ********** Section 10 ********** */
+
+   .section-10 {
+      width: 90%;
+   }
+
+   .section-10-gallery {
+
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 50px;
+
+   }
+
+
+   /* ********** Section 12 ********** */
+
+   .section-12-footer {
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 50px;
+   }
+
+   .section-12-footer-3 p {
+      font-size: 0.8rem;
+   }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 426px) {
+
+
+   /* ********** Section 1 ********** */
+
+   .top-header-wrapper {
+      width: 100%;
+
+   }
+
+   .top-header-info-content-logo img {
+      width: 32px;
+   }
+
+   .top-header-info-content-details span {
+
+      font-size: 10px;
+   }
+
+   .top-header-info-content-details p {
+      font-size: 0.8rem;
+   }
+
+   /* ********** Section 4 ********** */
+
+  .profile-image
+  {
+   position: relative;
+   left: 20px;
+  }
+
+  .profile-content
+  {
+   position: relative;
+   left: 20px;
+  }
+
+  .bold-number
+  {
+   margin-top: 20px;
+  }
+
+
+  /* ********** Section 5 ********** */
+
+  .training-list-carousel
+  {
+   width: 95%;
+  }
+
+   /* ********** Section 6 **********  */
+
+   .section-6-cards {
+      width: 90%;
+      flex-direction: column;
+
+   }
+
+
+
+   /* ********** Section 7 ********** */
+
+   .section-7 {
+      width: 90%;
+   }
+
+   .section-7-cards {
+      grid-template-columns: repeat(1, 1fr);
+   }
+
+
+
+   /* ********** Section 8 ********** */
+
+   .student-detail-form {
+      width: 95%;
+   }
+
+   .section-8-footer {
+      width: 95%;
+   }
+
+   .section-8-footer-content p {
+      margin-right: 0;
+      margin-left: 0;
+      margin: 10;
+      text-align: justify;
+   }
+
+
+
+   /* ********** Section 9 ********** */
+
+   .section-9-content {
+      width: 90%;
+   }
+
+
+   .section-9-content h2 {
+      width: 100%;
+      margin: auto;
+      margin-bottom: 20px;
+      font-weight: 600;
+      color: rgb(6, 6, 101);
+      text-align: center;
+   }
+
+
+   /* ********** Section 11 ********** */
+   .section-11-button button {
+      font-size: 0.8rem;
+
+   }
+
+
+   /* ********** Section 12 ********** */
+
+   .section-12-footer-3 p {
+      font-size: 0.6rem;
+   }
+
+}
+
+
+@media only screen and (max-width : 376px) {
+
+   /* ********** Section 1 ********** */
+
+   .top-header-info {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   /* ********** Section 5 ********** */
+
+   .training-list-carousel
+   {
+      width: 100%;
+   }
+}
